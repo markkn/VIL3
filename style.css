@@ -267,6 +267,28 @@ h1#title {
   background: #fff700;
 }
 
+.teamSelect button.selected {
+  background: #ffffff;
+  color: #001144;
+  box-shadow: 0 0 0 0.25vw #ffd700;
+}
+
+.submitAnswer {
+  margin-top: 2vw;
+  font-size: 2vw;
+  padding: 1vw 3vw;
+  background: #0055dd;
+  color: #fff;
+  border: none;
+  border-radius: 0.8vw;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submitAnswer:hover {
+  background: #003399;
+}
+
 @media (max-width: 1200px) {
   #main {
     flex-direction: column;
